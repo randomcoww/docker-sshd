@@ -1,0 +1,5 @@
+Subsystem sftp internal-sftp
+PermitRootLogin no
+PasswordAuthentication no
+ChallengeResponseAuthentication no
+UseDNS no
