@@ -9,6 +9,5 @@ spec:
   - port: 22
     name: ssh
     targetPort: 22
-    nodePort: 30062
   selector:
     k8s-app: sshd

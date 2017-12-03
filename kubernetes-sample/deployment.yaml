@@ -15,7 +15,7 @@ spec:
     spec:
       containers:
       - name: sshd
-        image: randomcoww/k8s-sshd:latest
+        image: randomcoww/sshd:latest
         ports:
         - containerPort: 22
           protocol: TCP
