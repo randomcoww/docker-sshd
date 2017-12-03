@@ -5,7 +5,10 @@ ENV SSH_USER sshuser
 
 RUN set -x \
   \
-  && apk add --no-cache openssh bash shadow \
+  && apk add --no-cache \
+    openssh \
+    bash \
+    shadow \
   \
   && adduser -h $SSH_HOME -s /bin/bash -D $SSH_USER \
   && passwd -d $SSH_USER \
