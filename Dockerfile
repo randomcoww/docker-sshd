@@ -1,4 +1,4 @@
-FROM alpine:latest
+FROM alpine:edge
 
 ENV SSH_HOME /home/sshuser
 ENV SSH_USER sshuser
