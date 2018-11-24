@@ -21,5 +21,5 @@ RUN set -x \
 
 COPY sshd_config /etc/ssh/sshd_config
 
-COPY entrypoint.sh /
-ENTRYPOINT ["/entrypoint.sh"]
+COPY docker-entrypoint.sh /
+ENTRYPOINT ["/docker-entrypoint.sh"]
